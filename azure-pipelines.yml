@@ -10,7 +10,7 @@ pool:
   vmImage: 'ubuntu-latest'
 
 steps:
--bash: |
+- bash: |
         echo "Shell executing, hello from $AGENT_NAME running on $AGENT_OS"
         ls
 
